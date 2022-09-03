@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Assignment 1</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav>
+                <a href="./index.html" style="color: #ccc; padding-left: 20px;text-decoration: none;">Home</a>
+                <a href="./index.html" style="color: #ccc; padding-left: 20px;text-decoration: none;">Lectures</a>
+                <a href="./index.html" style="color: #ccc; padding-left: 20px;text-decoration: none;">Assignments</a>
+                <a href="./index.html" style="color: #ccc; padding-left: 20px;text-decoration: none;">Final Project</a>
+                <a href="./index.html" style="color: #ccc; padding-left: 20px;text-decoration: none;">Labs</a>
+                <a href="./index.html" style="color: #ccc; padding-left: 20px;text-decoration: none;">Docs</a>
+            </nav>
+            <div> 
+                <h1>Assignment 2:Static Web:HTML/CSS</h1>
+                <p>Due Sunday, january 28 10:26pm PST</p>
+            </div>
+        </header>
+        <main>
+            <div>
+                <h2>Setup</h2>
+                <p>Accept the Github Classroom<a href="./index.html" style="color: rgb(238, 191, 130);text-decoration: none;"> assignment </a> and clone this repo that contains stencil code for assignment 2</p>
+                <h2>Introduction</h2>
+                <p>This is a multi-part assignment with the objective of making you comfortable working with HTML and CSS.By the end of this assignment ,you will styled some rectangular blocks and created a simple version of twitter's home page.</p>
+                <p>If this assignment seems overWhelming to you,please coem see a TA at TA hours to talk through some strategies for tracking it. We expect  this assignment to be a time-consuming assignment as we cover a lot of fundamental techniques.But with a good stratrgy,it can be finished in a reasonable amount of time.</p>
+                <p>Note: only CSS and HTML will be used for this assignment. If you want to use JavaScript (or libraries such as JQuery) then fell free to,but we will only be grading correctness on your CSS and HTML</p>
+                <p>if you can, <b>Start Early!</b></p>
+                <h2>Part One</h2>
+                <h3>Specifications</h3>
+                <p>Now that you understand some of the basics of HTML and CSS, let's take a look at how to align HTML elements.There are multiple ways to align HTML elements,but int this part, we recommend using flexboxes as they are widely used in modern web development (for example BootstrapV4 is built on top of felxboxes).</p>
+                <p>Refer to this great webpage on how to use flexboxes: <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" style="color: rgb(238, 191, 130); text-decoration: none;">CSS Flexbox guide</a>.</p>
+                <p>also feel free to use online resources such as Stack Overflow, MDN, W3, and Google for reference.</p>
+                <p>When you open the provided HTML file <a href="index.html" style="text-decoration: none;color: hotpink;">index.html</a>,it should look like this:</p>
+                <div class="MainPortionOfAssignment">
+                    <h4>Assignment 1</h4>
+                    <h4>Provided Examples</h4>
+                    <h4>Row 1</h4>
+                    <div class="row">
+                        <div class="col-6" style="background-color: red;">&nbsp;</div>
+                        <div class="col-6" style="background-color:royalblue"></div>
+                    </div>
+                    <h4>Row 2</h4>
+                    <div class="row">
+                        <div class="col-10" style="background-color:green;">&nbsp;</div>
+                        <div class="col-2" style="background-color:royalblue"></div>
+                    </div>
+                    <h4>student TODOs</h4>
+                    <h4>Row 3</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:green;">&nbsp;</div>
+                    </div>
+                    <h4>Row 4</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:green;">&nbsp;</div>
+                    </div>
+                    <h4>Row 5</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:green;">&nbsp;</div>
+                    </div>
+                    <h4>Row 6</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:green;">&nbsp;</div>
+                    </div>
+                    <h4>Row 7</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:green;">&nbsp;</div>
+                    </div>
+                    <h4>Row 8</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:green;">&nbsp;</div>
+                    </div>
+                    <h4>Row 9</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:green;">&nbsp;</div>
+                    </div>
+                </div>
+                <hr>
+                <p>As you can see ,there are 9 rectangles.This styling and makeup of the first two rectangles are already built for you.Your task is apply stylings and add div elements inside of the next 7 green rectangular blocks to create a webpage that looks like this:</p>
+                <div class="MainPortionOfAssignment">
+                    <h4>Assignment 1</h4>
+                    <h4>Provided Examples</h4>
+                    <h4>Row 1</h4>
+                    <div class="row">
+                        <div class="col-6" style="background-color: red;">&nbsp;</div>
+                        <div class="col-6" style="background-color:royalblue"></div>
+                    </div>
+                    <h4>Row 2</h4>
+                    <div class="row">
+                        <div class="col-10" style="background-color:green;">&nbsp;</div>
+                        <div class="col-2" style="background-color:royalblue"></div>
+                    </div>
+                    <h4>student TODOs</h4>
+                    <h4>Row 3</h4>
+                    <div class="row">
+                        <div class="col-2" style="background-color: red;"></div>
+                        <div class="col-8" style="background-color:green;">&nbsp;</div>
+                        <div class="col-2" style="background-color: royalblue;"></div>
+                    </div>
+                    <h4>Row 4</h4>
+                    <div class="row">
+                        <div class="col-10" style="background-color:red;">&nbsp;</div>
+                        <div class="col-2" style="background-color: royalblue;"></div>
+                    </div>
+                    <h4>Row 5</h4>
+                    <div class="row">
+                        <div class="col-12" style="background-color:green;padding: 5px;">
+                            <div class="col-1" style="background-color:red;margin-left:45%;">&nbsp;</div>
+                        </div>
+                    </div>
+                    <h4>Row 6</h4>
+                    <div class="row">
+                        <div class="col-12" style="background-color:red;">
+                            <div class="col-1" style="background-color:royalblue;margin-left:45%;">&nbsp;</div>
+                        </div>
+                    </div>
+                    <h4>Row 7</h4>
+                    <div class="row">
+                        <div class="col-2" style="background-color:red;">&nbsp;</div>
+                        <div class="col-10" style="background-color:green;">
+                            <div class="row" style="background-color: royalblue;">&nbsp;</div>
+                            <div class="row" style="background-color: green;">&nbsp;</div>
+                            <div class="row" style="background-color: royalblue;">&nbsp;</div>
+                        </div>
+                    </div>
+                    <h4>Row 8</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-2" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-2" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-2" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-2" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                    </div>
+                    <h4>Row 9</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                    </div>
+                </div>
+                <p>Note that these rectangular blocks should be responsive . Here is what they look like when the window is thinner.</p>
+                <div class="littlePortionOfAssignment">
+                    <h4>Assignment 1</h4>
+                    <h4>Provided Examples</h4>
+                    <h4>Row 1</h4>
+                    <div class="row">
+                        <div class="col-6" style="background-color: red;">&nbsp;</div>
+                        <div class="col-6" style="background-color:royalblue"></div>
+                    </div>
+                    <h4>Row 2</h4>
+                    <div class="row">
+                        <div class="col-10" style="background-color:green;">&nbsp;</div>
+                        <div class="col-2" style="background-color:royalblue"></div>
+                    </div>
+                    <h4>student TODOs</h4>
+                    <h4>Row 3</h4>
+                    <div class="row">
+                        <div class="col-2" style="background-color: red;"></div>
+                        <div class="col-8" style="background-color:green;">&nbsp;</div>
+                        <div class="col-2" style="background-color: royalblue;"></div>
+                    </div>
+                    <h4>Row 4</h4>
+                    <div class="row">
+                        <div class="col-10" style="background-color:red;">&nbsp;</div>
+                        <div class="col-2" style="background-color: royalblue;"></div>
+                    </div>
+                    <h4>Row 5</h4>
+                    <div class="row">
+                        <div class="col-12" style="background-color:green;padding: 5px;">
+                            <div class="col-1" style="background-color:red;margin-left:45%;">&nbsp;</div>
+                        </div>
+                    </div>
+                    <h4>Row 6</h4>
+                    <div class="row">
+                        <div class="col-12" style="background-color:red;">
+                            <div class="col-1" style="background-color:royalblue;margin-left:45%;">&nbsp;</div>
+                        </div>
+                    </div>
+                    <h4>Row 7</h4>
+                    <div class="row">
+                        <div class="col-2" style="background-color:red;">&nbsp;</div>
+                        <div class="col-10" style="background-color:green;">
+                            <div class="row" style="background-color: royalblue;">&nbsp;</div>
+                            <div class="row" style="background-color: green;">&nbsp;</div>
+                            <div class="row" style="background-color: royalblue;">&nbsp;</div>
+                        </div>
+                    </div>
+                    <h4>Row 8</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                    </div>
+                    
+                    <h4>Row 9</h4>
+                    <div class="row">
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                        <div class="col-1" style="background-color:green;">&nbsp;</div>
+                        <div class="col" style="background-color:orange;">&nbsp;</div>
+                    </div>
+                </div>
+                <p>
+                    we will describe how each row will behave dynamically and provide some hints for a possible approach: <br>
+                    <ul>
+                        <li>
+                            <p>
+                                3.For the third row, the red and blue ractangles should remain the same widht, and the green space should shrink. <br>
+                                <em>possible Approach:Have a div with a red background and a div with a blue background,both with fixed width. Use an appropriate value for <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/justify-content" style="color: rgb(216, 169, 123); text-decoration: none;">Justify Content</a></em>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                4.For the fourth row, the blue end rectangle should the same width, and the red rectangle should shrink. <br>
+                                <em>Hint:Think about how to keep a div fixed size and how to align something in the absolute center of the parent element.</em> 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                5.For the fifth row,the red should remain the same size ,while the red rectangle should remain the same size,but always remain in the center of the rectangle. <br>
+                                <em>Hint: Think about how to keep div a fixed size and and how to align something in center of the parent element.</em>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                6.For the sixth row ,the blue rectangle should remain the same size while the green space between them shrinks.
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                7.For the seventh row,the red rectangle should remain the same width. <br>
+                                <i>Hint:Nest divs and use <code style="color: hotpink;">background-color:transparent</code></i>
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                8.For the eight row,the orange rectangles should remain the same size while the green space between them shrinks. 
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                9.For the ninth row,the green space between the orange rectangles should remain the same width while the orange rectangles narrow.
+                            </p>
+                        </li>
+                    </ul>
+                    <p>
+                        The examples we provided with the first two rectangular blocks use flexboxes.You are not required to use flexboxes for the next 7 rows,but we recommend it as it will also be useful in part 2 of this assignment.
+                    </p>
+                    <p>
+                        you should only have to use the <span style="color: hotpink;">div</span> html element to complete this assignment. Also , <b>none of the divs you create inside of the provided wrappers divs should have</b> <span style="color: hotpink;"><code>background-color:green;</code></span>.But it is valid to specify non-green background colors for any divs,including the wrapper.
+                    </p>
+                    <p>
+                        Try to style the boxes as closely to the solution image as possible don't worry about getting exact dimensions or rgb values.We care about what structure,CSS styles you used and the dynamic behaviour of the page.However just for reference,
+                    </p>
+                    <ul>
+                        <li>The color of the boxes we used are <span style="color: hotpink;"><code>background-color:</code></span><span><code style="background-color: red;color: white;">red</code>,<code style="background-color:blue;color: white;">blue</code>, and <code style="background-color: orange;color: white;">orange</code></span>.</li>
+                        <li>Some width/height values we used are <span style="background-color:hotpink;">20px, 40px, 80px</span></li>
+                    </ul>
+                        you are not required to use Bootstrap in this part.You can use if you want,but we actually recommend writng plain CSS.Just for this part,inline CSS is acceptable,but you should generally avoid using inline CSS in the future.
+                    </p>
+                    <h2>General Notes</h2>
+                    <p>As a reminder ,it's a good idea to run your HTML and CSS syntax through validators.You should also considor using an accessibilty checker such as WAVE.</p>
+                    <h2>Troubleshooting</h2>
+                    <p>There are hundereds of HTML and CSS tags,properties,and values, and we do not expect students to learn each one by heart.However,this assignment and the first lab are intended for you to intuitively understand the languages, and to be proficient at knowing how to tackl a design by the end of the semester.</p>
+                    <p>if you're having problems,there are many guides on HTML and CSS online(CSS Tricks and MDN are your friends),as well as on our resources page.</p>
+                    <p>As always,if you are stuck on a particular part,you can always talk to the friendly TAs or ask questions on course piazza(check your email for signup link).</p>
+                    <p><b>As a general rule of thumb ,do not expect TAs to be able to solve every web problem you have.Even the most adopt web developer can struggle a lot with specific CSS rules to use.</b></p>
+                </p>
+            </div>
+        </main>
+    </div>
+    <footer>
+        <div style="padding: 10px; background-color:rgb(49, 45, 45);" class="container-fluid">
+            <b style="color: white;">&copy; 2022 |Ahmad Jajja</b><br>
+            <a style="color: peru;" href="https://github.com/Ahmadjajja">https://github.com/Ahmadjajja</a>
+        </div>
+    </footer> 
+</body>
+</html>

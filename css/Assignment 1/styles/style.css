@@ -1,0 +1,19 @@
+header , footer{
+    text-align: center;
+}
+.MainPortionOfAssignment{
+    background-color:rgb(250, 245, 245);
+    padding: 20px;
+}
+.container{
+    /* border:violet dotted 3px;  */
+    padding: 0px 80px;
+}
+.row{
+    padding-left: 12px;
+}
+.littlePortionOfAssignment{
+    background-color:rgb(250, 245, 245);
+    padding: 20px;
+    width: 40%;
+}

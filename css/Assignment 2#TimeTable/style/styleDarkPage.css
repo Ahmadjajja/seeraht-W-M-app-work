@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&family=Lobster&display=swap');
+table, th, td {
+    border: 2px solid rgb(252, 252, 252);
+    border-collapse: collapse;
+    text-align: center;
+} 
+section{
+    margin: 0px 100px 0px 100px;
+    padding: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0 auto;
+}
+main{
+    background-color: rgb(19, 17, 17);
+}
+footer{
+    padding: 20px 0px 20px 0px;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    background-color: white;
+    color: black;
+    padding: 5px;
+    border-radius: 2px;
+    float: right;
+    /* margin-left: 100px; */
+}
+.timetable{
+    font-family: 'IM Fell English SC', serif;
+    display: inline;
+    color: green;
+}
+.darkPage{
+    background-color: black;
+    color: white;
+}

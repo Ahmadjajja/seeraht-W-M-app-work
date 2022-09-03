@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+    <style>
+        form{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <form action="">
+        <h1>Employ Interest Survey</h1>
+            <label for="name">Enter your name:</label><input type="text" id="name"><br><br>
+            <label for="dapartment">Enter your department:</label><input  name="department" id="department"></input><br><br>
+            <label for="yourSelf">Tell me little about yourself:</label><textarea type="text" id="yourSelf" rows="2" cols="20"></textarea><br><br>
+            Do you exercise At home:
+            <label for="yes">Yes</label><input type="radio" name="exercise" value="Yes" id="yes">
+            <label for="no">NO</label><input type="radio" name="exercise" value="NO" id="no"><br>
+            <p>How do you like to read about your favourite topics?</p>
+            <input type="checkbox" id="books" name="books" value="quran pak">
+            <label for="books">Books</label>
+            <input type="checkbox" id="online-resources" name="online-resources" value="online-resources">
+            <label for="online-resources">Online resources</label>
+            <input type="checkbox" id="Phone-apps" name="phone apps" value="phone apps">
+            <label for="Phone-apps">Magazines</label><br><br>
+            What genure of movies do you like? 
+            <select>
+                <option value="yaar anmully">Comedy</option>
+                <option value="krish 3">Action</option>
+                <option value="ki & ka">love story</option>
+            </select><br><br>
+            <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
